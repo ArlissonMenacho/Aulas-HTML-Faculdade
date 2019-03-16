@@ -1,8 +1,37 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Formulários</title>    
+        <title>Portal de Publicações</title>    
         <meta charset="utf-8" />
+        <style type="text/css">
+       
+       body
+       {
+          background:#989898;
+       }
+
+        table
+       {
+          background: #FFFF;
+       }
+
+       #quadro
+       {
+        background: #FFFF;
+        width:275px;
+        padding: 5px;
+        /*float: right;*/
+        margin: 10% auto;
+       }
+         .texto
+       {
+        background: #FFFF;
+        margin: 45px;
+        padding:10px;
+       /*width: 75%; */
+       }
+
+        </style>
     </head>
     <body>
        <h1 align="center">Publicação de Noticias</h1>
@@ -15,6 +44,7 @@
             <td><a href="PortalP.html">Portal de Publicações</a></td>
            </tr>  
    </table>
+   <div align="center" id="quadro">    
         <form>
             <label for="titulo">Titulo:</label> <br/>           
                  <input type="text" name="login" /><br/>
@@ -29,6 +59,7 @@
                     <option>Noticias Nacionais</option>
                 </select> <br/>
                 <br>
-             <input type="submit" value="Salvar">        
+             <input type="submit" value="Salvar">   
+    </div>
     </body>
 </html>
