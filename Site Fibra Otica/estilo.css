@@ -1,0 +1,58 @@
+       #cabecalho
+       {
+        width: 100%;
+        height: 100px; 
+        text-align: center;
+        position: relative;
+        background: #F2F2F2;
+       }
+       body
+       { 
+        
+        background: -webkit-radial-gradient(rgb(28, 147, 255), rgb(3, 171, 204));
+        background: radial-gradient(rgb(28, 147, 255), rgb(3, 171, 204));
+
+       }
+        a
+        {
+          padding: 10px;
+          font-size: 18px;
+        }
+        .img
+        {
+          float: left;
+          margin: 50px 10px 50px 10px;
+        }
+       .texto
+       {
+        background: #FFFF;
+        margin: 45px;
+        padding:10px;      
+       }
+        a
+        {
+          text-decoration: none;
+          padding: 5px;
+        }
+      /*Links não visitados*/
+        a:link
+        {
+          color: #b9c941;
+        }
+      /*links visitados*/
+        a:visited
+        {
+          color: #c0c0c0;
+        }
+      /*links hover passar o cursor sobre o link*/
+        a:hover
+        {
+          color: #FFF;
+          background:#6d790f;
+        }
+      /*links ativos*/    
+        a:active
+        {
+          color: #e4f371;
+        } 
+      
