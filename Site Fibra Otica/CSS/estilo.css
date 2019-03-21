@@ -6,12 +6,17 @@
         position: relative;
         background: #F2F2F2;
        }
+       #area-contato
+       {
+        padding: 10px;
+        margin-bottom:10px;
+        align-items: center;
+        text-align: center;
+       }
        body
-       { 
-        
+       {         
         background: -webkit-radial-gradient(rgb(28, 147, 255), rgb(3, 171, 204));
         background: radial-gradient(rgb(28, 147, 255), rgb(3, 171, 204));
-
        }
         a
         {
@@ -26,7 +31,10 @@
        {
         background: #FFFF;
         width: 100%;
-        padding:10px;  
+        padding:5px;  
+        position: relative;
+    
+        
        }
         a
         {
