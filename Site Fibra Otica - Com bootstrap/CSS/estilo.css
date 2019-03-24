@@ -13,16 +13,7 @@
         align-items: center;
         text-align: center;
        }
-       .imagens-paginas
-       {
-         margin: 25px;
-         align-self: center;
-       }
-       body
-       {         
-        background: -webkit-radial-gradient(rgb(28, 147, 255), rgb(3, 171, 204));
-        background: radial-gradient(rgb(28, 147, 255), rgb(3, 171, 204));
-       }
+      
         a
         {
           padding: 10px;
@@ -37,26 +28,10 @@
         background: #FFFF;
         width: 100%;
         padding:5px;  
-        position: relative; 
+        position: relative;
+    
         
        }
-        #quadro
-       {
-        background: #FFFF;
-        width:275px;
-        padding: 5px;
-        /*float: right;*/
-        margin: 10% auto;
-       }
-       #contato
-       {
-        background: #FFFF;
-        width: 100%;
-        padding:10px; 
-        position: relative; 
-        text-align: center;
-       }
-
         a
         {
           text-decoration: none;

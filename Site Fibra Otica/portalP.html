@@ -3,53 +3,24 @@
     <head>
         <title>Portal de Publicações</title>    
         <meta charset="utf-8" />
-        <style type="text/css">
-       
-       body
-       {
-          background:#989898;
-       }
-
-        table
-       {
-          background: #FFFF;
-       }
-
-       #quadro
-       {
-        background: #FFFF;
-        width:275px;
-        padding: 5px;
-        /*float: right;*/
-        margin: 10% auto;
-       }
-         .texto
-       {
-        background: #FFFF;
-        margin: 45px;
-        padding:10px;
-       /*width: 75%; */
-       }
-
-        </style>
+        <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
     </head>
     <body>
-       <h1 align="center">Publicação de Noticias</h1>
-       <table border="1" align="center">
-           <tr>
-            <td><a href="home.html">Home</a></td>
-            <td><a href="Sobre.html">Sobre Nós</a></td>
-            <td><a href="Noticias.html">Noticias</a></td> 
-            <td><a href="Contato.html">Fale Conosco</a></td>
-            <td><a href="PortalP.html">Portal de Publicações</a></td>
-           </tr>  
+        <div id="cabecalho">
+          <h1>Portal de Publicações</h1>      
+           <a href="home.html">Home</a> 
+           <a href="Sobre.html">Sobre Nós</a>
+           <a href="Noticias.html">Notícias</a>
+           <a href="Contato.html">Fale Conosco</a>
+           <a href="PortalP.html">Portal de Publicações</a>         
+   </div>
    </table>
    <div align="center" id="quadro">    
         <form>
             <label for="titulo">Titulo:</label> <br/>           
-                 <input type="text" name="login" /><br/>
+                 <input type="text" id="titulo" placeholder="Titulo da Publicação" required /><br/>
             <label for="assunto">Assunto:</label> <br/>
-                <input type="text" name="assunto"/><br/> 
+                <input type="text" id="assunto" placeholder="Assunto da Publicação" required /><br/> 
             <label for="categoria">Categoria</label> <br/>
                 <select>
                     <option>Atualização de Velocidades</option>
