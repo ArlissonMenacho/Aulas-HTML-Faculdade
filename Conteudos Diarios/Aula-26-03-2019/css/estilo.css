@@ -1,0 +1,77 @@
+	#topo
+		{
+			border: 1px solid black;			
+			padding-top: 20px;
+			padding-left: 20px;
+			height: 400px;
+			background-color: rgb(104,173,170);
+			background: url("../barrett.jpg")center no-repeat;
+			font-family: "lucida sans";
+			color:black;
+		}
+
+		#conteudo
+		{
+			border: 2px	solid black;
+			padding: 50px;
+			background-color: green;
+			color: #FFF;
+		}
+
+		#rodape
+		{
+			border: 2px	solid black;
+			padding: 50px;
+			background-color: rgb(48,45,45);
+			color: #FFF;
+		}
+		nav ul{
+			list-style: none;
+		}
+
+		nav ul li{
+			float: left;
+		}
+
+		nav ul li a{
+			display: block;
+			height: 30px;
+			padding: 0 30px;
+			font-size: 14px;
+			line-height: 30px;
+			text-align: center;
+			text-decoration: none;
+			font-weight: bold;
+			color: #999;
+		}
+
+		nav ul li a:hover{
+			color: #34ABE0;
+		}
+
+		nav ul li a.selecionado{
+			background-color: #34ABE0;
+			margin-left: 10px;
+			color: #FFF;
+			height: 25px;
+			line-height: 25px;
+			margin-top: 2px;
+			margin-left: 0px;
+		}
+
+		section#conteudo{
+	height: 335px;
+	width: 940px;
+	background: url("../img/imagem1.png") right top no-repeat #DDEEEE;
+	margin-top: 60px;
+	padding-left: 10px;
+}
+
+section#conteudo p{
+	padding-top: 35px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 16px;
+	width: 600px;
+	color: #34ABE0;
+}
