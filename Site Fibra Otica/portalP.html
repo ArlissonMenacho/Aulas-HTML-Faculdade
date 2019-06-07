@@ -6,21 +6,23 @@
         <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
     </head>
     <body>
-        <div id="cabecalho">
-   <i><h1 class="NomeBlog">InfraFibra a Melhor do País</h1></i>      
+     <div id="cabecalho">
+   <a href="home.html"><i><h1 class="NomeBlog">InfraFibra a Melhor do País</h1></i></a>
+       <div id="links">
            <a href="home.html">Home</a> 
            <a href="Sobre.html">Sobre Nós</a>
            <a href="Noticias.html">Notícias</a>
            <a href="Contato.html">Fale Conosco</a>
-           <a href="PortalP.html">Portal de Publicações</a>         
+           <a href="PortalP.html">Portal de Publicações</a>   
+      </div>
    </div>
-   </table>
+
    <div align="center" id="quadro">    
         <form>
+          <h1 id="azul">Publicação de Notícias</h1>
             <label for="titulo">Titulo:</label> <br/>           
                  <input type="text" id="titulo" placeholder="Titulo da Publicação" required /><br/>
-            <label for="assunto">Assunto:</label> <br/>
-                <input type="text" id="assunto" placeholder="Assunto da Publicação" required /><br/> 
+           
             <label for="categoria">Categoria</label> <br/>
                 <select>
                     <option>Atualização de Velocidades</option>
@@ -29,8 +31,22 @@
                     <option>Noticias Internacionais</option>
                     <option>Noticias Nacionais</option>
                 </select> <br/>
-                <br>
+
+                 <label for="assunto">Conteúdo:</label> <br/>
+              <textarea rows="10" cols="40"id="assunto" placeholder="Assunto da Publicação" required"></textarea>
+              <br>    
+              <br>
+
              <input type="submit" value="Salvar">   
     </div>
+    <div>
+  <footer>
+    <p><b>
+      &copy; Desenvolvido Por Arlisson Menacho<br>
+      Desenvolvimento WEB 2019.1
+      </b>
+    </p>
+  </footer>
+</div>
     </body>
 </html>

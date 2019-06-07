@@ -5,7 +5,7 @@
   text-align: center;
   position: relative;
   background: #F2F2F2; 
-  padding: 10px;
+  padding-top: 40px;
  }
  .NomeBlog{
   color: #00BFFF;
@@ -14,14 +14,14 @@
   padding-top:15px;
   padding-left:15px;
   text-align: center; 
-  margin-top:-25px;
- }
+  margin-top:-25px;  
+ } 
 
  #destaque{
   color: white; 
   font-size: 42px;
   margin-left:40px; 
-  margin-bottom: -20px;
+  margin-bottom:0px;
  }
 
  #area-contato
@@ -40,6 +40,13 @@
  {         
   background: #00BFFF;
  }
+ b{
+  font-size: 20px;  
+ }
+ footer{
+  text-align: center;
+  color: white;  
+ }
  
   .img
   {        
@@ -50,17 +57,21 @@
   background: #FFFF;
   width: 100%;
   padding:5px;  
-  position: relative; 
-  
+  position: relative;   
  }
   #quadro
  {
-  background: #FFFF;
-  width:275px;
-  padding: 5px;
+  background: #FFFF; 
+  padding: 15px;
   /*float: right;*/
-  margin: 10% auto;
- }
+  margin-top: 5% ;
+  margin-left:auto;
+  margin-right: auto; 
+}
+#azul{
+  color: #00BFFF;   
+}
+
  #contato
  {
   background: #FFFF;
@@ -79,8 +90,13 @@
     float: left;
     margin:40px;         
   }
-
   a
+  {
+    text-decoration: none;  
+    color:#000000;
+  }
+    
+  #links a
   {
     padding-left:5px;
     padding-right:5px;
@@ -88,23 +104,38 @@
     font-size: 18px;
   }
 /*Links não visitados*/
-  a:link
+  #links a:link
   {
     color: #b9c941;
   }
 /*links visitados*/
-  a:visited
+  #links a:visited
   {
     color: #c0c0c0;
   }
-/*links hover passar o cursor sobre o link*/
-  a:hover
-  {
+ /*links hover passar o cursor sobre o link*/
+  #links a:hover{
     color: #FFF;
     background:#6d790f;
-  }
+  } 
 /*links ativos*/    
-  a:active
+  #links  a:active
   {
     color: #e4f371;
   } 
+.categorias{
+  color: white; 
+  font-size: 32px;
+  padding-left: 90px;
+  margin: 0;
+  padding:0;
+ }
+ .noticiaretangulo{
+     background: #F2F2F2;
+    color:black;
+    text-align: left;    
+    width: 100%;  
+    float: left;   
+    padding: 20px;
+    margin-bottom: 50px;
+ }
