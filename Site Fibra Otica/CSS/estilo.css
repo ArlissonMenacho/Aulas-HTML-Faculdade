@@ -55,9 +55,16 @@
  .texto
  {
   background: #FFFF;
-  width: 100%;
-  padding:5px;  
+  width: 100%;    
   position: relative;   
+ }
+ .texto p
+ {
+  padding: 10px; 
+ }
+  .texto i
+ {
+  padding-bottom: 20px; 
  }
   #quadro
  {
@@ -84,7 +91,7 @@
     background: #F2F2F2;
     color:black;
     text-align: center;
-    width: 400px;
+    width: 15%;
     height: 270px; 
     padding: 10px;
     float: left;
@@ -131,11 +138,18 @@
   padding:0;
  }
  .noticiaretangulo{
-     background: #F2F2F2;
+    background: #F2F2F2;
     color:black;
     text-align: left;    
     width: 100%;  
     float: left;   
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-bottom: 50px;
+ }
+ .noticiaretangulo h2, .noticiaretangulo p{
+  padding-left: 20px;
+ }
+ .limpador{
+  clear: both;
  }
