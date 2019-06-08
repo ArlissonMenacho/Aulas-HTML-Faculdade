@@ -1,3 +1,6 @@
+ * {
+  box-sizing: border-box;
+}
  #cabecalho
  {
   width: 100%;
@@ -11,7 +14,7 @@
   color: #00BFFF;
   text-shadow: 1px 1px black;
   text-align: left;
-  padding-top:15px;
+ 
   padding-left:15px;
   text-align: center; 
   margin-top:-25px;  
@@ -153,3 +156,22 @@
  .limpador{
   clear: both;
  }
+.noticiacompleta{
+   background: #F2F2F2;
+    color:black;
+    text-align: left;    
+    width: 100%;  
+    float: left;   
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.noticiacompleta h2, .noticiacompleta p{
+  padding-left: 20px;
+ }
+ .alinhamentoButton{
+  padding-left: 90%;
+
+ }
+ 
